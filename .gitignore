@@ -1,0 +1,22 @@
+# Ignore files in the root directory
+/target/
+/.idea/
+/.vscode/
+*.iml
+
+# Ignore files in the 'surveyapp' directory, except 'src' and 'pom.xml'
+/surveyapp/*
+!/surveyapp/src/
+!/surveyapp/public/
+!/surveyapp/package.json
+
+# Ignore files in the 'myapp' directory, except 'package.json', 'src', and 'pom.xml'
+/myapp/*
+!/myapp/package.json
+!/myapp/src/
+!/myapp/public/
+
+# Ignore all '.json' files in the root directory
+#*.json
+
+.fake
